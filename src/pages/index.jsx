@@ -8,14 +8,14 @@ const MainPage = () => {
   return (
     <>
       <Navbar />
-      <main className="bg-gradient-to-t from-blue-700 to-transparent h-screen">
+      <main className="bg-gradient-to-t from-blue-700 to-transparent h-screen px-5">
         <div className="flex flex-col justify-center items-center mt-10">
           <div className="bg-blue-700 w-44 h-8 rounded-full flex justify-center items-center gap-3">
             <i className="bi bi-broadcast text-white"></i>
             <p className="text-sm font-medium text-white">Testnet is Live!</p>
           </div>
           <div className="flex flex-col justify-center items-center mt-10">
-            <h1 className="text-3xl font-bold text-white krona-one-regular text-center">
+            <h1 className="text-2xl font-bold text-white krona-one-regular text-center">
               Open Source and Public Blockchain
             </h1>
             <p className="text-base font-normal text-white text-center mt-5">
