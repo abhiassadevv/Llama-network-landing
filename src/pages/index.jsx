@@ -12,14 +12,14 @@ const MainPage = () => {
   return (
     <>
       <Navbar />
-      <main className="relative bg-gradient-to-t from-blue-700 to-transparent px-5 py-16">
+      <main className="relative bg-gradient-to-t from-blue-700 to-transparent px-5 py-16 md:px-10">
         <div className="flex flex-col justify-center items-center">
           <div className="bg-blue-700 w-44 h-8 rounded-full flex justify-center items-center gap-3">
-            <i className="bi bi-broadcast text-white"></i>
+            <i className="bi bi-broadcast text-white animate-pulse"></i>
             <p className="text-sm font-medium text-white">Testnet is Live!</p>
           </div>
           <div className="flex flex-col justify-center items-center mt-10">
-            <h1 className="text-2xl font-bold text-white krona-one-regular text-center">
+            <h1 className="text-2xl font-bold text-white krona-one-regular text-center animate-[element-in] md:text-4xl">
               Open Source and Public Blockchain
             </h1>
             <p className="text-base font-normal text-white text-center mt-5">
@@ -42,7 +42,7 @@ const MainPage = () => {
         <h3 className="text-xl font-bold text-white mt-20 text-center">
           Why Llama Network ?
         </h3>
-        <div className="flex flex-col justify-center items-center gap-10 mt-10">
+        <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
           <Card
             title="Fast"
             description="Llama Network cant proccessed 100tps."
@@ -55,7 +55,7 @@ const MainPage = () => {
           />
         </div>
       </section>
-      <section className="px-5 py-10">
+      <section className="px-5 py-10 md:px-10 md:py-20">
         <div className="bg-gradient-to-tr from-slate-600 to-slate-900 h-80 rounded-2xl flex flex-col justify-center items-center">
           <h5 className="text-2xl font-bold text-white text-center">
             Ready to use Llama Network?
@@ -65,7 +65,7 @@ const MainPage = () => {
           </Button>
         </div>
       </section>
-      <footer className="px-5 py-10">
+      <footer className="px-5 py-10 md:px-10 md:py-20">
         <h5 className="text-2xl font-bold text-white">Llama Network</h5>
         <p className="text-base font-normal text-white opacity-80">
           Open source and public blockchain.

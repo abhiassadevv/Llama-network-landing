@@ -17,3 +17,12 @@
   font-weight: 400;
   font-style: normal;
 }
+
+@keyframes element-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
