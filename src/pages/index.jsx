@@ -67,8 +67,8 @@ const MainPage = () => {
         </div>
       </section>
       <section className="px-8 py-20 md:px-10 md:py-20">
-        <div className="bg-gradient-to-tr from-slate-600 to-slate-900 h-80 rounded-2xl flex flex-col justify-center items-center">
-          <h5 className="text-2xl font-bold text-white text-center">
+        <div className="bg-gradient-to-tr from-slate-600 to-slate-900 h-80 rounded-2xl flex flex-col justify-center items-center p-5">
+          <h5 className="text-xl font-bold text-white text-center">
             Ready to use Llama Network?
           </h5>
           <Button classname="rounded-xl text-base font-bold text-white mt-5">

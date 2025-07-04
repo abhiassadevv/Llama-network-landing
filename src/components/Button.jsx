@@ -10,7 +10,7 @@ const Button = (props) => {
   return (
     <>
       <button
-        className={`${variant} ${height} ${width} border-3 border-slate-500 ${classname} hover:bg-blue-800 hover:duration-400`}
+        className={`${variant} ${height} ${width} border-2 border-slate-400 ${classname} hover:bg-blue-800 hover:duration-400`}
       >
         {children}
       </button>
