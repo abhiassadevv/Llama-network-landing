@@ -1,7 +1,7 @@
 const Button = (props) => {
   const {
-    variant = "bg-blue-500",
-    height = "h-10",
+    variant = "bg-purple-700",
+    height = "h-12",
     width = "w-44",
     classname,
     children,
@@ -10,7 +10,7 @@ const Button = (props) => {
   return (
     <>
       <button
-        className={`${variant} ${height} ${width} ${classname} hover:bg-blue-700 hover:duration-400`}
+        className={`${variant} ${height} ${width} border-3 border-slate-500 ${classname} hover:bg-blue-800 hover:duration-400`}
       >
         {children}
       </button>

@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex justify-between items-center px-5 py-10 md:px-10">
+      <nav className="bg-blue-700 flex justify-between items-center px-8 py-10 md:px-10">
         <div className="flex justify-start items-center">
           <a href="" className="text-xl font-bold text-white">
             Llama Network
@@ -41,14 +41,14 @@ const Navbar = () => {
           <Button
             height="h-10"
             width="w-26"
-            classname="hidden rounded-lg text-base font-bold text-white md:flex"
+            classname="hidden rounded-lg text-base font-bold text-white justify-center items-center md:flex"
           >
             Run Node
           </Button>
         </div>
       </nav>
       {menuOpen && (
-        <ul className="absolute top-26 left-0 right-0 z-1 bg-slate-950 p-5 flex flex-col gap-10">
+        <ul className="absolute top-26 left-0 right-0 z-1 bg-slate-950 p-5 flex flex-col gap-5">
           <li className="border-b-3 border-transparent py-2 hover:border-b-3 hover:border-blue-700 hover:duration-300">
             <a href="" className="text-sm font-normal text-white">
               Whitepaper
